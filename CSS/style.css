@@ -32,14 +32,11 @@ nav .logo2{
   width: 190px;
   margin-right: 110px;
   margin-left: 85px;
-  cursor: pointer;
-
-  
+  cursor: pointer;  
 }
 nav ul{
   flex: 1;
-  text-align: right;
-
+  text-align: right
 }
 nav ul li{
   display: inline-block;
@@ -48,9 +45,10 @@ nav ul li{
   margin-right: 80px;
 }
 nav ul li a{
-  text-decoration: none;
+  text-decoration: underline;
+  text-decoration-color: #DE9545;
   color: #153D4D;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 h1{
@@ -62,6 +60,7 @@ h1{
   height: 0px;
   width: 500px;
   text-decoration: underline;
+  text-decoration-color: #DE9545;
 }
 
 #box {
@@ -102,7 +101,9 @@ h2{
   text-decoration: underline;
   color: #153D4D;
   font-size: 20px;
-padding-top: 50px;  
+  padding-top: 50px;
+  text-decoration: underline;
+  text-decoration-color: #DE9545;  
 }
 
 .jacket-blue{
