@@ -1,0 +1,140 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+}
+body{
+  background-color: #C6D7D9;
+  height: 100vh;
+}
+
+.container{
+  display: grid;
+  width: 100%;
+  height: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.navbar{
+ width: 100%;
+ display: flex;
+ align-items:center;
+ overflow:hidden;
+ 
+}
+.menu-logo{
+  width: 20px;
+  cursor: pointer;
+  margin-left: 60px;
+}
+.logo2{
+  width: 150px;
+  cursor: pointer;
+  margin-left: 0px;
+
+}
+nav{
+  flex: 1;
+  margin: 2px;
+  padding: 0;
+  text-align: right;
+
+}
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 30px;
+  scale:initial;
+  flex-wrap: wrap;
+}
+nav ul li a{
+text-decoration: none;
+color: #153D4D;
+font-size: 18px;
+}
+nav ul li a:hover{
+  color:#DE9545;
+}
+.jackets{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 100px 0;
+}
+.col-1{
+  flex-basis: 40%;
+  position:relative;
+  margin-left: 50px;
+  margin-top: 130px;
+}
+
+.col-1 h2{
+  font-size: 40px;
+  color: #153D4D;
+  font-weight: 100;
+}
+
+.col-1 h3{
+  font-size: 30px;
+  text-decoration: underline;
+  color: #153D4D;
+  font-weight: 100;
+  margin: 20px 0;
+}
+.col-1 p{
+  font-size: 16px;
+  color: #153D4D;
+  font-weight: 100;
+}
+.col-1 h4{
+  text-decoration: underline;
+  margin: 30px 0;
+  font-size: 20px;
+  color: #153D4D;
+  font-weight: 600;
+}
+button{
+  font-weight: 600;
+  font-size: 16px;
+  width: 140px;
+  border: 0;
+  padding: 12px 10px;
+  outline: none;
+  color: #153D4D;
+  background: linear-gradient(to left, #DE9545,#C6D7D9);
+  border-radius: 10px;
+  cursor: pointer;
+}
+button:hover{
+  width: 200px;
+  display: block;
+  align-items: center;
+  justify-content: space-around;
+ 
+}
+
+.col-1::after{
+  content: '';
+  width: 10px;
+  height: 57%;
+  background: linear-gradient(#DE9545, #C6D7D9);
+  position: absolute;
+  left: -40px;
+  top: 8px;
+}
+.col-2{
+  position: relative;
+  flex-basis: 60%;
+  display: flex;
+  align-items: center;
+
+}
+.col-2 .jackets-both{
+width: 500px;
+height: 400px;
+margin-left: 400px;
+margin-top: -350px;
+max-width: 100%;
+}
+@media (min-width: 600px) and (max-width: 1200px) {
+}
